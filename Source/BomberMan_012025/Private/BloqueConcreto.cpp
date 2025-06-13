@@ -26,5 +26,6 @@ void ABloqueConcreto::BeginPlay()
 	Super::BeginPlay();
 	PosicionInicial = GetActorLocation(); // guarda la posicion inicial del bloque
 	FloatSpeed = 0.0f; // velocidad de movimiento
-	RotationSpeed = 0.0f; // velocidad de rotacion
+	RotationSpeed = 0.0f; // velocidad de rotacion 
 }
+

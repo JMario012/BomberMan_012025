@@ -47,3 +47,10 @@ void ABloque::Tick(float DeltaTime)
 	}
 }
 
+void ABloque::AplicarComportamientoGrupal()
+{
+	// Aquí defines lo que significa que sea "destructible"
+	// Por ejemplo, puedes poner una bandera o lógica personalizada
+	UE_LOG(LogTemp, Warning, TEXT("Bloque marcado como destructible (comportamiento grupal)"));
+}
+

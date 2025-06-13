@@ -45,5 +45,6 @@ public:
 private:
 	FVector PosicionInicial;
 	float TiempoTranscurrido;
+	void AplicarComportamientoGrupal();
 
 };
